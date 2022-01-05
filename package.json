@@ -6,10 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "author": "",
   "repository": {
+    "type": "git",
     "url": "git://github.com/nidhimtridhyaintuit/videoplayercommon"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+ 
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
